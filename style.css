@@ -46,20 +46,16 @@ a {
     height: 250px;
     display: flex;
     justify-content: space-between;
-    flex: 1;
-}
-
-.media {
-    display: flex;
     align-items: flex-start;
-    height: 250px;
+    flex: 1;
+    flex-wrap: wrap-reverse;
 }
 
 .flipped {
     flex-direction: row-reverse;
 }
 
-.media .subcontent {
+.hero .subcontent {
     flex: 1;
 }
 
