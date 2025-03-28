@@ -46,9 +46,9 @@ a {
     height: 250px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex: 1;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
 }
 
 .flipped {
