@@ -11,6 +11,7 @@ body {
 
 ul {
     list-style-type: none;
+    display: flex;
 }
 
 a {
@@ -25,4 +26,8 @@ img {
 
 .info {
     max-width: 200px;
+}
+
+.headertop {
+    display: flex;
 }
