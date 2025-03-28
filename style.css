@@ -43,3 +43,7 @@ img {
     font-size: 24px;
     color: #f9faf8;
 }
+
+.header {
+    padding: 16px 100px;
+}
