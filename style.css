@@ -79,10 +79,6 @@ a {
     display: block;
 }
 
-.info {
-    max-width: 200px;
-}
-
 .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -110,6 +106,16 @@ button.top {
     width: 450px;
     margin-right: 48px;
     margin-bottom: 8px;
+}
+
+.information .title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info {
+    max-width: 200px;
 }
 
 .info img {
