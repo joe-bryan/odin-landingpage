@@ -35,6 +35,18 @@ a {
     flex-direction: column;
 }
 
+.headertop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    flex: 1;
+}
+
+.hero {
+    height: 250px;
+    display: flex;
+}
+
 .image img {
     width: 200px;
     max-width: 100%;
@@ -57,13 +69,6 @@ a {
 
 .info {
     max-width: 200px;
-}
-
-.headertop {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 48px;
-    flex: 1;
 }
 
 .logo {
@@ -93,11 +98,6 @@ button.top {
     width: 450px;
     margin-right: 48px;
     margin-bottom: 8px;
-}
-
-.hero {
-    height: 250px;
-    display: flex;
 }
 
 .info img {
