@@ -26,8 +26,24 @@ a {
 }
 
 img {
-    width: 200px;
+    width: 500px;
     height: 150px;
+    max-width: 100%;
+    display: block;
+}
+  
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flipped {
+    flex-direction: row-reverse;
+}
+
+.media .content {
+    flex: 1;
+    padding: 10px;
 }
 
 .info {
@@ -37,6 +53,7 @@ img {
 .headertop {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 48px;
 }
 
 .logo {
