@@ -114,6 +114,13 @@ button.top {
     font-weight: 900;
 }
 
+.information {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
 .info {
     max-width: 200px;
 }
