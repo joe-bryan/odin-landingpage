@@ -30,8 +30,8 @@ a {
 }
 
 img {
-    width: 500px;
-    height: 150px;
+    width: 600px;
+    height: 200px;
     max-width: 100%;
     display: block;
 }
@@ -66,7 +66,7 @@ img {
 }
 
 .header {
-    padding: 16px 100px;
+    padding: 16px 150px 72px;
 }
 
 .hero .title {
@@ -85,4 +85,14 @@ button.top {
     background: royalblue;
     border: 1px solid royalblue;
     color: white;
+}
+
+.subcontent .text {
+    width: 450px;
+    margin-right: 48px;
+    margin-bottom: 8px;
+}
+
+.hero {
+    height: 250px;
 }
