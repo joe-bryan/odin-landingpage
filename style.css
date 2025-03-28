@@ -49,24 +49,6 @@ a {
     flex: 1;
 }
 
-.subcontent {
-    width: 450px;
-    margin-right: 48px;
-    margin-bottom: 8px;
-}
-
-.image {
-    width: 450px;
-    margin-left: 32px;
-}
-
-.image img {
-    height: 250px;
-    width: 450px;
-    max-width: 100%;
-    display: block;
-}
-  
 .media {
     display: flex;
     align-items: flex-start;
@@ -77,9 +59,28 @@ a {
     flex-direction: row-reverse;
 }
 
-.media .content {
+.media .subcontent {
     flex: 1;
     padding: 10px;
+}
+
+.subcontent {
+    width: 450px;
+    margin-right: 48px;
+    margin-bottom: 8px;
+}
+
+.image {
+    width: 450px;
+    margin-left: 32px;
+    flex: 1;
+}
+
+.image img {
+    height: 250px;
+    width: 450px;
+    max-width: 100%;
+    display: block;
 }
 
 .info {
