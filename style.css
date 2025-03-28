@@ -45,10 +45,24 @@ a {
 .hero {
     height: 250px;
     display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.subcontent {
+    width: 450px;
+    margin-right: 48px;
+    margin-bottom: 8px;
+}
+
+.image {
+    width: 450px;
+    margin-left: 32px;
 }
 
 .image img {
-    width: 200px;
+    height: 250px;
+    width: 450px;
     max-width: 100%;
     display: block;
 }
@@ -56,6 +70,7 @@ a {
 .media {
     display: flex;
     align-items: flex-start;
+    height: 250px;
 }
 
 .flipped {
