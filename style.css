@@ -112,6 +112,7 @@ button.top {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin-bottom: 32px;
 }
 
 .information {
@@ -126,8 +127,8 @@ button.top {
 }
 
 .info img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .testimonial {
