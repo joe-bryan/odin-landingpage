@@ -108,18 +108,23 @@ button.top {
     margin-bottom: 8px;
 }
 
+.information {
+    text-align: center;
+}
+
 .information .title {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
     margin-bottom: 32px;
+    margin-top: 32px;
 }
 
 .informationcontainer {
-    text-align: center;
     display: flex;
     justify-content: center;
     gap: 52px;
+    margin-bottom: 72px;
 }
 
 .info {
@@ -129,6 +134,11 @@ button.top {
 .info img {
     width: 150px;
     height: 150px;
+    border-radius: 10px;
+}
+
+.info .text {
+    color: #1f2937;
 }
 
 .testimonial {
