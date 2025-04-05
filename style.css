@@ -65,10 +65,15 @@ a {
     width: 450px;
     margin-right: 48px;
     margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
 }
 
 .image {
-    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 450px; */
     margin-left: 32px;
     flex: 1;
 }
@@ -92,6 +97,10 @@ a {
     font-weight: 900;
 }
 
+.subcontent .text {
+    margin-bottom: 8px;
+}
+
 button {
     cursor: pointer;
     padding: 8px 16px;
@@ -102,12 +111,6 @@ button.top {
     background: royalblue;
     border: 1px solid royalblue;
     color: white;
-}
-
-.subcontent .text {
-    width: 450px;
-    margin-right: 48px;
-    margin-bottom: 8px;
 }
 
 .information {
@@ -180,7 +183,7 @@ button.top {
     border-radius: 10px;
     padding: 32px 48px;
     display: flex;
-    gap: 144px;
+    /* gap: 144px; */
     flex-wrap: wrap;
     min-width: 100px;
 }
@@ -193,8 +196,9 @@ button.top {
 
 .ctabutton {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    margin-left: 32px;
 }
 
 .calltoaction {
@@ -202,4 +206,12 @@ button.top {
     background-color: #3882f6;
     color: #f9faf8;
     flex-shrink: 0;
+}
+
+.footer {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
 }
