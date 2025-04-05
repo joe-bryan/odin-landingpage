@@ -168,6 +168,7 @@ button.top {
 
 .modal {
     background: #ffffff;
+    flex: 1;
 }
 
 .innermodal {
@@ -176,9 +177,23 @@ button.top {
     border-radius: 10px;
     padding: 32px 48px;
     display: flex;
+    gap: 144px;
 }
 
 .innermodal .title {
     color: #f9faf8;
     font-weight: bold;
+    font-size: 24px;
+}
+
+.ctabutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calltoaction {
+    border: 1px solid #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
 }
