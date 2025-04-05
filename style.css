@@ -165,3 +165,7 @@ button.top {
     margin: 0px 200px 72px;
     font-weight: bold;
 }
+
+.innermodal {
+    background: #3882f6;
+}
