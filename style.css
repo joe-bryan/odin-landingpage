@@ -60,6 +60,8 @@ a {
 }
 
 .subcontent {
+    display: flex;
+    flex-direction: column;
     width: 450px;
     margin-right: 48px;
     margin-bottom: 8px;
@@ -125,6 +127,7 @@ button.top {
     justify-content: center;
     gap: 52px;
     margin-bottom: 72px;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -178,6 +181,8 @@ button.top {
     padding: 32px 48px;
     display: flex;
     gap: 144px;
+    flex-wrap: wrap;
+    min-width: 100px;
 }
 
 .innermodal .title {
@@ -196,4 +201,5 @@ button.top {
     border: 1px solid #f9faf8;
     background-color: #3882f6;
     color: #f9faf8;
+    flex-shrink: 0;
 }
