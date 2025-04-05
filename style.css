@@ -166,6 +166,12 @@ button.top {
     font-weight: bold;
 }
 
+.modal {
+    background: #ffffff;
+}
+
 .innermodal {
     background: #3882f6;
+    margin: 72px 200px 72px;
+    border-radius: 10px;
 }
